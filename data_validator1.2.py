@@ -1,4 +1,5 @@
-#Created by Owen Riddle 1/09/2025. Thanks for checking this out :)
+#Created by Owen Riddle 1/09/2025. This python app parses csv's for duplicate data and invalid file names. Has a simple GUI. Thanks for checking this out :)
+
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
 import pandas as pd
