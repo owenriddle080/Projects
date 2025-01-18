@@ -1,4 +1,4 @@
-#Python app to parse invoices
+#Python app to parse invoice PDFs for required data
 
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
