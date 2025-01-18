@@ -1,3 +1,5 @@
+#Simple calculator to calculate pay (including overtime)
+
 print('Pay Calculator')
 # Define pay function
 def compute_pay(rate, hours_worked):
