@@ -1,3 +1,5 @@
+#Python app to parse invoices
+
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import pdfplumber
@@ -190,9 +192,6 @@ class InvoiceParserApp:
 
 if __name__ == "__main__":
     root = tk.Tk()
-
-    # Add custom tags for warnings
-    root.option_add('*Text.warning', 'foreground red')
 
     app = InvoiceParserApp(root)
     root.mainloop()
