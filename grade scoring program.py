@@ -1,3 +1,5 @@
+#Simple program to output grade based on score
+
 print('Grade Scoring Program')
 def computegrade(score):
    if score > 1.0 or score < 0.0:
