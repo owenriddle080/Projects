@@ -1,0 +1,59 @@
+PDF Parser and Analyzer v3.1
+PDF Parser and Analyzer is a desktop application that extracts text from PDF files, applies custom regular expressions to analyze the content, and exports the results to CSV. Built using Python, Tkinter, and pdfplumber, this app offers a modern, dark-themed user interface for managing regex patterns and processing documents.
+
+Features
+PDF Extraction:
+Upload one or more PDFs and extract text from specified pages.
+
+Regex Analysis:
+Create, manage, and test custom regex patterns with friendly names.
+
+Highlights full matches and capture groups in the extracted text.
+CSV Export:
+Export analysis results to CSV, with each unique regex pattern as a column and each row representing a file.
+
+Dark-Themed UI:
+A modern, sleek interface with a consistent dark theme across all components.
+
+Prerequisites
+Python 3.7 or higher (tested with Python 3.12)
+Required Python packages:
+pdfplumber
+pandas
+tkinter (usually included with Python)
+Other built-in modules: re, json, os, sys
+
+Usage
+Upload PDFs:
+Click the "Upload PDFs" button to select PDF files. The app will extract text from the specified pages (configurable in the settings).
+
+Manage Regex Patterns:
+Open the Regex Manager sidebar to:
+
+Enter a new regex pattern with a friendly name.
+View and select from saved regex patterns.
+Test and highlight regex matches in the extracted text.
+Analyze Data:
+Select one or more regex patterns from the listbox and click "Analyze Data" to apply the regex to the extracted text. The app highlights full matches in yellow and capture groups in red.
+
+Export Results:
+Once analysis is complete, click "Export Data" to save the results as a CSV file. Each file becomes a row and each regex (by friendly name) becomes a column containing the aggregated capture groups.
+
+Future Enhancements
+OCR Integration:
+Incorporate Optical Character Recognition (OCR) for scanned PDFs.
+
+Advanced PDF Extraction:
+Detect and extract tables or other structured data from PDFs.
+
+Performance Improvements:
+Use multi-threading or asynchronous processing to handle large PDFs or batches more efficiently.
+
+Data Visualization:
+Include interactive reporting and visualization tools for analyzing results directly within the app.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+For questions, suggestions, or contributions, please contact Owen Riddle.
