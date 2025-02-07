@@ -32,6 +32,7 @@ Open the Regex Manager sidebar to:
 
 Enter a new regex pattern with a friendly name.
 View and select from saved regex patterns.
+Save/load patterns to a local json file "saved_patterns.json"
 Test and highlight regex matches in the extracted text.
 Analyze Data:
 Select one or more regex patterns from the listbox and click "Analyze Data" to apply the regex to the extracted text. The app highlights full matches in yellow and capture groups in red.
